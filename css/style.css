@@ -6,9 +6,38 @@
         font-size: 25px;
     }
 
-    nav ul{
+    .itens{
         gap: 50px;
         font-size: 20px;
-        justify-content: center;
+        justify-content:right;
+        align-items: center;
         display: flex;
-    }
+        background-color: blueviolet;
+        padding: 10px 20px;
+        }
+
+        #titulo{
+            margin-right: auto;
+            display: flex;
+            color: white;
+            background-color: rgb(78, 14, 138);
+            padding: 6px 6px;
+        }
+
+        #subtitulo{
+            color: white;
+            background-color: green;
+            display: inline-block;
+            padding: 6px;
+            font-size: 30px;
+        }
+
+        img{
+            display: block;
+        }
+
+        #link{
+            color: white;
+            padding: 15px;
+            background-color: rgb(78, 14, 138);
+        }
